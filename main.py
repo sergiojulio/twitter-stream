@@ -1,3 +1,7 @@
+
+"""
+https://improveandrepeat.com/2022/04/python-friday-117-streaming-search-results-with-tweepy/
+"""
 import tweepy
 from tweepy import StreamingClient, StreamRule
 import os
@@ -19,3 +23,9 @@ rule = StreamRule(value="Python")
 printer.add_rules(rule)
 
 printer.filter()
+
+"""
+--------------------------------------------------
+1621632802184728576 None (None): Oferta laboral: Python Backend Developer - Buscamos un Python Backend Developer para una reconocida Institución... https://t.co/qdfd0vvZTi
+--------------------------------------------------
+"""
