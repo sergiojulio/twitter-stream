@@ -25,7 +25,5 @@ printer.add_rules(rule)
 printer.filter()
 
 """
---------------------------------------------------
 1621632802184728576 None (None): Oferta laboral: Python Backend Developer - Buscamos un Python Backend Developer para una reconocida Institución... https://t.co/qdfd0vvZTi
---------------------------------------------------
 """
