@@ -8,7 +8,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-bearer_token = os.getenv('bearer-token')
+bearer_token = os.getenv('BEARER_TOKEN')
 
 class TweetPrinterV2(tweepy.StreamingClient):
     
@@ -19,7 +19,7 @@ class TweetPrinterV2(tweepy.StreamingClient):
 printer = TweetPrinterV2(bearer_token)
 
 # add new rules    
-rule = StreamRule(value="Python")
+rule = StreamRule(value="Sterling")
 printer.add_rules(rule)
 
 printer.filter()
