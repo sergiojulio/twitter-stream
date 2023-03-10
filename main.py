@@ -19,7 +19,7 @@ class TweetPrinterV2(tweepy.StreamingClient):
 printer = TweetPrinterV2(bearer_token)
 
 # add new rules    
-rule = StreamRule(value="Sterling")
+rule = StreamRule(value="#MilanTottenham")
 printer.add_rules(rule)
 
 printer.filter()
